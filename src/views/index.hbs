@@ -1,3 +1,11 @@
 <p>This is a sismple Express with Handlebars project {{title}}.</p>
 
-{{!-- {{>hero/hero}} --}}
+{{!-- {{#each heroData}}
+  <div>
+    <img src='{{this.image}}' alt='{{this.title}}' />
+    <p>{{this.title}}</p>
+    <p>{{this.description}}</p>
+  </div>
+{{/each}} --}}
+
+{{!-- {{> hero/hero heroData=heroData}} --}}

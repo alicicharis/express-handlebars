@@ -1,1 +1,7 @@
-<p>Hero Widget</p>
+{{#each heroData}}
+  <div>
+    <img src='{{this.image}}' alt='{{this.title}}' />
+    <p>{{this.title}}</p>
+    <p>{{this.description}}</p>
+  </div>
+{{/each}}
