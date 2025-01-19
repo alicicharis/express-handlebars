@@ -1,0 +1,26 @@
+$primary-color: #333;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $primary-color;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  text-align: center;
+
+  p {
+    font-size: 48px;
+  }
+
+  nav a {
+    margin: 0 15px;
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
